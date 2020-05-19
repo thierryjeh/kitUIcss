@@ -1,0 +1,142 @@
+
+/************************/
+/* 	    COULEURS        */
+/************************/
+
+ /*La couleur principale (primary)
+    La couleur secondaire (secondary)*/
+
+.primary {
+	background-color: #000000;
+}
+
+.text-primary {
+  color: #000000;	
+}
+
+     /*Trois nuances de gris :
+        Un gris très foncé (dark)
+        Un gris plus clair (medium-light)
+        Un gris très léger (light)*/
+
+.dark {
+	color: #000000;
+}
+
+.medium-light {
+  color: #000000;	
+}    
+
+
+.
+.dark {
+	color: #000000;
+} 
+
+
+/*Il te faudra aussi trouver des couleurs pour les boutons, les alertes :
+    warning dans les tons oranges
+    danger dans les tons rouges
+    success dans les tons vertes
+    info dans les tons bleues*/
+
+.warning {
+	color: #000000;
+}
+
+.danger {
+  color: #000000;	
+}    
+
+.success {
+	color: #000000;
+} 
+
+.info {
+	color: #000000;
+} 
+
+/*La typographie*/
+
+.headings {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.normal {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+
+    de <h1> à <h6>
+    les <p>
+    le tag <lead>, qui correspond à un paragraphe à qui tu veux donner plus d'importance
+    les <blockquote>, pour les citations
+    les <ul>, <ol>, et <li> pour les listes */
+
+
+
+h1, h2, h3,
+h4, h5, h6.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+
+p.impact {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+ blockquote.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+
+ul, ol, li.impact {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+
+/*Les boutons à mofidier (
+    Les normaux (btn)
+    Les outline
+    Les petits (sm) et grand lg
+)
+    primary
+    warning
+    danger
+    info
+    success*/
+
+
+ .primary{
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+
+ .warning {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+
+ .danger {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+
+ .info {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+
+ .success {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
